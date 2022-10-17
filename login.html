@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/6d62cc9dd0.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="assets/img/APLogo-20-20.png" alt="logo arg programa" width="20%" height="auto">
+                </a>
+                <ul class="list-group list-group-horizontal">
+
+                    <!-- Button trigger modal -->
+                    <li class="list-group-item">
+                        <a><i class="fa-solid fa-user-lock fa-2xl" type="button" class="btn btn-primary"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            </i></a>
+                    </li>
+                </ul>
+        </nav>
+
+    </header>
+    <section class="bodylogin">
+        <h4 class="textologin">Registrarse</h4>
+        <div class="modal-body">
+            <div class="mb-3 row">
+                <div><i class="fa-regular fa-envelope"></i>
+                    <label for="staticEmail" class="col-sm-2 col-form-label">Ingrese un Email</label>
+                </div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="staticEmail" value="email@dominio.com">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <div><a><i class="fa-solid fa-lock"></i></a>
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Ingrese una Contraseña</label>
+                </div>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword">
+                </div>
+                <div id="passwordHelpBlock" class="form-text">
+                    Tu contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios, caracteres especiales ni emoji.
+                  </div>
+                <div><label for="inputPassword" class="col-sm-2 col-form-label">Repita la Contraseña</label>
+                </div>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer row">
+            <a href="/dashboard.html"><button type="button" class="btn btn-primary">Ingresar</button></a>
+        </div>
+
+
+
+    </section>
+    <!--footer-->
+    <footer class="bg-black text-white text-center fs-6">
+        <div class="pt-3">
+            <p>&copyCopyright GUSTAVO CHUMBA 2022</p>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
