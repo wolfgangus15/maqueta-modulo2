@@ -226,6 +226,20 @@ color: blue;
 .btn1{
     color: brown;
 }
+/*----responsive login----*/
+@media screen and (max-width:991px){
+    .bodylogin {
+    margin-top: 25%;
+    }
+}
+@media only screen and (max-width:768px){
+    .bodylogin {
+        margin-top: 33%;
+        }  
+}
+@media screen and (max-width:480px){
+    
+}
 /*------responsive dashboard-------*/
 @media screen and (max-width:991px){
     section.dashboard{
