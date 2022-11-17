@@ -14,9 +14,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
-</head>
+   </head>
 
 <body>
+    !--sacar scrol--! 
+    <style>
+
+        html, body{
+        
+        overflow:hidden;
+        
+        overflow-x:hidden;overflow-y:scroll;
+        
+        }
+        
+        </style>
     !--boton redes--!
     <header class="">
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
@@ -26,8 +38,9 @@
                 </a>
             </div>
             <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><a href="https://www.instagram.com" target="blank"><i
-                        class="fa-brands fa-square-instagram fa-2xl "><span id="titulo">Instagram</span></i></a></li>
+                <li class="list-group-item"><a href="https://www.instagram.com" target="blank"><i class="fa-brands fa-square-instagram fa-2xl ">
+                    <span id="titulo">Instagram</span></i></a>
+                </li>
                 <li class="list-group-item"><a href="http://www.facebook.com" target="blank"><i class=" fa-brands
                         fa-facebook fa-2xl"><span id="titulo">Facebook</span></i></a></li>
                 <li class="list-group-item"><a href="http://www.linkedin.com" target="blank"><i
@@ -35,8 +48,8 @@
                 <li class="list-group-item"><a href="http://www.github.com" target="blank"><i
                             class="fa-brands fa-github fa-2xl"><span id="titulo">Github</span></i></a></li>
                 <!-- Button trigger modal -->
-                <li class="list-group-item"><a><i class="fa-solid fa-user-lock fa-2xl" type="button" class="btn btn-primary"
-                            data-bs-toggle="modal" data-bs-target="#exampleModal"> </i></a>
+                <li class="list-group-item"><a><i class="fa-solid fa-user-lock fa-2xl" type="button"
+                            class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> </i></a>
                 </li>
             </ul>
         </nav>
@@ -86,7 +99,7 @@
 
         !--seccion banner--!
         <section class="container-fluid banner">
-            <div>
+            <div class="">
                 <div>
                     <h1 class="intro text-center">Gustavo Alberto Chumba
                     </h1>
@@ -108,7 +121,7 @@
         </section>
 
         <section id="acerca de mi" class="about">
-            <div class="container text-center ">
+            <div class="">
                 <div class="row">
                     <div class="col-3 zoom">
                         <img src="assets/img/perfil.jpg" class="rounded-circle w-75 img-fluid" alt="foto perfil"

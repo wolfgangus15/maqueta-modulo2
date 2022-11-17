@@ -1,3 +1,5 @@
+
+
 /*redes header*/
 .fa-brands.fa-square-instagram.fa-2xl:hover{
 color:rgb(255, 0, 255)
@@ -50,7 +52,7 @@ color:rgb(255, 0, 255)
 .fa-brands.fa-square-instagram.fa-2xl:hover #titulo {
     opacity: 1;
     visibility: visible;
-    top: 21px;
+    top: 32px;
     }
  .fa-brands.fa-linkedin-in.fa-2xl:hover #titulo {
         opacity: 1;
@@ -71,8 +73,7 @@ h1, h2, h5, h4{
     padding-top: 10%;
    }
 h1.intro{
-    font-size: 3rem;
-
+    font-size: 3em;
 }
 section.banner{
     background-image: url(../img/pexels-cottonbro-5185159\(1\).png);
@@ -88,10 +89,10 @@ section.banner{
     background-size: cover;
    }
    /*videobanner*/
-  
+ 
  .vid{
     padding-bottom: 5%;
-    padding-top: 5%;
+    padding-top: 0.1%;
     opacity: 0.7;
     height: 67vh;
    }
@@ -162,30 +163,41 @@ background: linear-gradient(to left, #CFDEF3, #e0eafc10); /* W3C, IE 10+/ Edge, 
 
     }
    /*------responsive index-------*/
-   @media screen and (max-width:1024px) {
-    .intro{
-        padding-top:20%;
-             }
-   }
-   @media screen and (max-width:480px) {
+   @media only screen and (max-width:480px) {
+    h1.intro{
+        font-size: 1.5em;
+    }
+    h2.intro2{
+        font-size: 1em;  
+    }
     .vid{
 background: #4b6bb7;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        }
+}
+
+  } 
+ 
+
+   @media screen and (max-width:991px) {
+    .intro{
+        padding-top:20%;
+             }
+   }
+ /*
   .intro{
-        padding-top:18%;
+        padding-top:1%;
              }
 .intro2{
     padding-bottom: 8%;
-  }
+  }*/
   .rspsv{
     flex-direction: column;
     padding-left: 28%;
     width: 130%;
     
   }
-      }
+      
     /*--------dashboard--------*/
     .bodydash{
         background-color: rgb(186, 191, 198);
@@ -228,31 +240,30 @@ color: blue;
     color: brown;
 }
 /*----responsive login----*/
-@media screen and (max-width:991px){
-    .bodylogin {
-    margin-top: 25%;
-    }
-}
 @media only screen and (max-width:768px){
     .bodylogin {
-        margin-top: 33%;
+        margin-top: 50%;
         }  
 }
-@media screen and (max-width:480px){
-    
+@media screen and (max-width:991px){
+    .bodylogin {
+    margin-top: 20%;
+    }
 }
+
+
 /*------responsive dashboard-------*/
+@media only screen and (max-width:768px){
+    section.dashboard{
+        margin-top: 25%;
+                  }  
 @media screen and (max-width:991px){
     section.dashboard{
         margin-top: 25%;
         width: 100%o;
      }  
      }
-@media only screen and (max-width:768px){
-    section.dashboard{
-        margin-top: 25%;
-        
-             }  
+
 .bar-resp{
     flex-direction: column;
     padding-left: 17%;
