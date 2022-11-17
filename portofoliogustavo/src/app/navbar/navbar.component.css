@@ -1,0 +1,64 @@
+/*redes header*/
+.fa-brands.fa-square-instagram.fa-2xl:hover{
+    color:rgb(255, 0, 255)
+    }
+    .fa-brands.fa-facebook.fa-2xl:hover{
+        color:rgb(38, 78, 159);
+        }
+     .fa-brands.fa-linkedin-in.fa-2xl:hover{
+            color:rgb(59, 178, 207);
+            }
+      .fa-solid.fa-user-lock:hover{
+                    color:rgb(73, 140, 167); 
+                    }
+    .fa-brands.fa-github.fa-2xl:hover{
+        color:rgba(10, 27, 124, 0.918);
+    } 
+    /*nombre desplegable de la red*/
+    .list-group-item a{
+        text-decoration: none;
+        position: relative;
+        transition: all 500ms ease;
+        
+    }
+    #titulo{
+        color: black;
+        }
+    .list-group{
+           --bs-link-color: black;
+    }
+    .list-group-item #titulo{
+        position: absolute;
+        background: transparent;
+        padding: 0px 8px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 3px;
+        font-size: 15px;
+        top:12px; left: -30px;
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+    }
+    .fa-brands.fa-facebook.fa-2xl:hover #titulo {
+                opacity: 1;
+            visibility: visible;
+            top: 32px;
+      }
+    .fa-brands.fa-square-instagram.fa-2xl:hover #titulo {
+        opacity: 1;
+        visibility: visible;
+        top: 21px;
+        }
+     .fa-brands.fa-linkedin-in.fa-2xl:hover #titulo {
+            opacity: 1;
+            visibility: visible;
+            top: 32px;
+            }
+    .fa-brands.fa-github.fa-2xl:hover #titulo {
+        opacity: 1;
+        visibility: visible;
+        top: 32px;
+        }

@@ -80,11 +80,12 @@ section.banner{
     width: 100%;
     background-repeat: no-repeat;
     position: relative;
-    background-size: cover;
+    
     -webkit-background-size: cover;
     -moz-backgroud-size: cover;
     -moz-background-size: cover;
     -msn-background-size: cover;
+    background-size: cover;
    }
    /*videobanner*/
   
@@ -261,9 +262,7 @@ color: blue;
     margin-bottom: 10%;
     background: #000;
    }
-   .botonera a{
-   
-   }
+  
 .redes{
   width: 150%;
   background: #000;
